@@ -31,7 +31,7 @@ docker run -it \
     -p 2049:2049 \
     -e DOCKER_USER=`id -un` \
     -e DOCKER_USER_ID=`id -u` \
-    -e DOCKER_GROUP_ID=`getent group nogroup | cut -d: -f3` \
+    -e DOCKER_GROUP_ID=`id -g` \
     -e DOCKER_PASSWORD=`id -un` \
     -v /wwwroot:/nfs \
     dclong/nfs
