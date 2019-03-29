@@ -13,4 +13,4 @@ COPY scripts /scripts/
 
 EXPOSE 111 2049
 
-ENTRYPOINT ["/scripts/init.sh"]
+ENTRYPOINT ["/scripts/sys/init.sh"]
