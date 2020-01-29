@@ -8,6 +8,10 @@ OS: Ubuntu 16.04
 
 Additional Software: nfs server.
 
+## Prerequisite
+You need to [install Docker](http://www.legendu.net/en/blog/docker-installation/) before you use this Docker image.
+
+
 ## How to Use
 
 ### Build the Docker Image
