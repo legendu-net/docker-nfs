@@ -2,29 +2,11 @@
 
 NFS in Ubuntu. 
 
-## Detailed Information
-
-OS: Ubuntu 16.04
-
-Additional Software: nfs server.
-
 ## Prerequisite
 You need to [install Docker](http://www.legendu.net/en/blog/docker-installation/) before you use this Docker image.
 
 
-## How to Use
-
-### Build the Docker Image
-
-```
-./build.sh
-```
-
-### Pull the Docker Image
-
-```
-docker pull dclong/samba
-```
+## Usage in Linux/Unix
 
 ### Start a Container
 
@@ -41,6 +23,8 @@ docker run -it \
     dclong/nfs
 ```
 
-## About the Author
+## [Detailed Information](http://www.legendu.net/en/blog/my-docker-images/#list-of-images-and-detailed-information) 
 
-[Personal Blog](http://www.legendu.net)   |   [GitHub](https://github.com/dclong)   |   [Bitbucket](https://bitbucket.org/dclong/)   |   [LinkedIn](http://www.linkedin.com/in/ben-chuanlong-du-1239b221/)
+## [Known Issues](http://www.legendu.net/en/blog/my-docker-images/#known-issues)
+
+## [About the Author](http://www.legendu.net/pages/about)
