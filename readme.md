@@ -19,7 +19,7 @@ docker run -it \
     -e DOCKER_USER_ID=`id -u` \
     -e DOCKER_GROUP_ID=`id -g` \
     -e DOCKER_PASSWORD=`id -un` \
-    -v /wwwroot:/nfs \
+    -v "$(pwd)":/nfs \
     dclong/nfs
 ```
 
