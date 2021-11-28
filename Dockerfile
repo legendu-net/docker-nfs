@@ -1,4 +1,6 @@
-FROM dclong/ubuntu_b
+# NAME: dclong/nfs
+FROM dclong/base
+# GIT: https://github.com/dclong/docker-base.git
 
 RUN apt-get update \
     && apt-get install -y nfs-kernel-server \
