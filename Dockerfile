@@ -1,6 +1,6 @@
 # NAME: dclong/nfs
 FROM dclong/base
-# GIT: https://github.com/dclong/docker-base.git
+# GIT: https://github.com/legendu-net/docker-base.git
 
 RUN apt-get update \
     && apt-get install -y nfs-kernel-server \
