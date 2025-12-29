@@ -2,8 +2,8 @@
 FROM dclong/base
 # GIT: https://github.com/legendu-net/docker-base.git
 
-RUN apt-get update \
-    && apt-get install -y nfs-kernel-server \
+RUN apt-get -y update \
+    && apt-get -y install nfs-kernel-server \
     && apt-get autoremove \
     && apt-get autoclean
 
